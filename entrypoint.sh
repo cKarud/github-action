@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-cat ~/Workspace/github-action/penguin.txt
+cat penguin.txt
