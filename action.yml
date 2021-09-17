@@ -1,0 +1,10 @@
+name: "Pinguin-Action"
+inputs:
+  number-of-penguins:
+    required: true
+    default: 1
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ number-of-penguins }}
