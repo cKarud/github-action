@@ -1,12 +1,12 @@
-name: "Pinguin-Action"
-description: "Starts a docker container and echo penguins"
+name: 'Pinguin-Action'
+description: 'Starts a docker container and echo penguins'
 inputs:
   number-of-penguins:
-    description: "number of penguins"
+    description: 'number of penguins'
     required: true
     default: '1'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ number-of-penguins }}
+    - ${{ inputs.number-of-penguins }}
