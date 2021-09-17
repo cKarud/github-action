@@ -1,0 +1,11 @@
+target
+logs
+.classpath
+.project
+.settings
+.idea
+*.iml
+*.bat
+*.log
+.DS_Store
+.java-version
