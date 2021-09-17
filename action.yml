@@ -1,5 +1,5 @@
-name: 'Pinguin-Action'
-description: 'Starts a docker container and echo penguins'
+name: 'Penguin-Action'
+description: 'Starts a docker container and echos a penguin'
 runs:
   using: 'docker'
   image: 'Dockerfile'
